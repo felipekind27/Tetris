@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.tetris-container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.score-container {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
